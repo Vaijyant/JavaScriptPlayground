@@ -3,10 +3,9 @@ function fibonacci(n) {
     if(n<0 || (Math.ceil(n) - Math.floor(n)) === 1) return "Invalid!";
     if(n==0) return [];
     if(n==1) return [1];
-    if(n==2) return [1, 1];
     
     let fibList = [1, 1];
-    for(let i=2; i<=n; i++) {
+    for(let i=2; i<n; i++) {
         fibList.push(fibList[i-1] + fibList[i-2]);
     }
     return fibList;

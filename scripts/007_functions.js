@@ -1,3 +1,6 @@
+/* eslint-disable no-constant-condition */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 function add(a, b) {
     x = "Some value x";
     var y = "Some value y";
