@@ -4,3 +4,5 @@ setTimeout(function() {
 setTimeout(function() {
     console.log("Second");
 }, 3000);
+
+console.log(this);
